@@ -1,0 +1,503 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: whitesmoke;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.name {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  z-index: 1;
+  color: white;
+  margin-bottom: 50px;
+  
+}
+
+a {
+  font-size: 50px;
+}
+
+.icons {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.interestText {
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.interest {
+  font-size: 40px;
+}
+
+.gameBody {
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 5px 10px red;
+}
+
+.fiddlestickText {
+  text-align: center;
+  font-family: "Beaufort for LOL", serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: -25px;
+  position: relative;
+}
+
+.fiddlestick {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 100px; 
+}
+
+.fiddleText{
+  font-size: 10px;
+}
+
+.fiddlestickimage {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  animation: 2000ms cubic-bezier(0.215, 0.61, 0.355, 1) 700ms 1 normal both
+    running lbWRkT;
+  mask-image: linear-gradient(rgb(0, 0, 0) 65%, rgba(0, 0, 0, 0) 98%);
+  position: relative;
+}
+
+.Fear {
+  letter-spacing: 0.2em;
+  text-align: center;
+  font-family: "Beaufort for LOL", serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 4px;
+  position: absolute;
+  top: 20px;
+}
+
+.fiddlestickText1{
+  margin-top: 50px;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.Boss {
+  letter-spacing: 0.2em;
+  text-align: center;
+  font-family: "Beaufort for LOL", serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.Sett {
+  text-align: center;
+  font-family: "Beaufort for LOL", serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 100px;
+  font-weight: 800;
+  margin-top: -25px;
+}
+
+.settImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  animation: 2000ms cubic-bezier(0.215, 0.61, 0.355, 1) 700ms 1 normal both
+    running lbWRkT;
+  mask-image: linear-gradient(rgb(0, 0, 0) 65%, rgba(0, 0, 0, 0) 98%);
+  position: relative;
+}
+
+.interestlist {
+  list-style-type: none;
+}
+
+.musictext {
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+.vutext {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: -15px;
+  margin-right: 200px;
+  margin-left: 20px;
+  color: white;
+}
+
+.vuimage {
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.vucontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.obitotext {
+font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: -15px;
+  display:flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-left: 20px;
+  color: white;
+}
+
+.obitotext1{
+    margin-top: 10px;
+    
+}
+
+.obitocontainer {
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+}
+
+.obitoimage {
+    margin-left: 40px;
+    object-fit: cover;
+}
+
+
+.chilliesText{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: -15px;
+  display:flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-left: 20px;
+  color: white;
+}
+
+.chilliescontainer{
+    display:flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+.chilliesimage{
+    object-fit: cover;;
+}
+
+.projectitle{
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.trangtotext {
+    font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-right: 200px;
+  background-color: white;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  border-radius: 2%;
+  padding: 50px;
+}
+
+.trangtocontainer {
+    display:flex;
+    flex-direction: row;
+    margin: -10px 100px; 
+}
+
+.songtitle{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: white;
+}
+
+.songtext{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.songcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.song1{
+    display: block;
+    margin-right: 150px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 2%;
+    
+}
+
+.song2{
+    background-color: white;
+    padding: 40px;
+    border-radius: 2%;
+    
+    
+}
+
+.song3{
+    display: block;
+    margin-right: 100px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 2%;
+}
+
+.song4{
+    display: block;
+    background-color: white;
+    padding: 40px;
+    border-radius: 2%;
+    
+    
+}
+
+.languageicon{
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.protitle, .proheader{ 
+font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+text-transform: uppercase;
+font-weight: 700;
+margin-top: 20px;
+text-align: center; 
+}
+
+.icon1 {
+  border: 1px solid;
+  padding: 100px; 
+  text-align: center;
+}
+
+.icon2{
+  border: 1px solid;
+  padding: 100px; 
+  text-align: center;
+}
+
+.icon3{
+  border: 1px solid;
+  padding: 80px; 
+  text-align: center;
+} 
+
+.programlanguage{
+  text-align: center; 
+  font-size: 20px;
+}
+
+.protitle{
+  font-size: 25px;
+}
+
+.trangtoimage{
+  margin-bottom: 50px;
+}
+
+.friendimage{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.friendtotal{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Rich{
+  margin-left: 400px;
+}
+
+.introcontain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2010328424759555731/7167A3ECE235D7D7E9CDD5E866E9C556F20C22BD/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  
+  
+}
+
+.myselfimage{
+  border-radius: 100%;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+
+
+.box-overlay {
+  background-color: rgba(255, 144, 0, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  position: absolute;
+  z-index: 1;
+}
+
+.extra{
+  font-size: 40px;
+  text-align: center;
+}
+
+.imgextra{
+  object-fit: contain;
+  margin-left: 40px;
+
+  
+}
+
+.MUNtext{
+  font-size: 40px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.MUN{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  border-radius: 1%;
+}
+
+.Total{
+  margin-bottom: 10px;
+    top: 0; 
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: cornflowerblue;
+    color: white;
+    z-index: 2;
+}
+
+.option{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20;
+  margin-right: 50px;
+}
+
+.interest1{
+  font-size: 25px;
+  margin-right: 20px;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: white; 
+}
+
+.extra1{
+  font-size: 25px;
+  margin-right: 20px;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: white; 
+  
+}
+
+.pro{
+  font-size: 25px;
+  margin-right: 20px;
+  font-family:  "Playfair Display", serif;
+  text-decoration: none;
+  color: white; 
+}
+
+.contact1{
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: white; 
+}
+
+a:hover {
+  color: red;
+}
+
+.friendname{
+ 
+  text-align: center;
+  margin-top: 40px;
+margin-bottom: 100px;
+}
+
+.Jimmytext{
+  margin-top: 20px;
+  margin-right: 100px;
+}
